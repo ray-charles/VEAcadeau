@@ -23,3 +23,17 @@ Journal vivant : chaque changement, pourquoi, et la suite.
 
 - Choix : dépôt GitHub `ray-charles/VEAcadeau` → GitHub Pages → `cadeau.veacademy.studio`, plus redirection Squarespace `/cadeau`. Commit local prêt, fichier `CNAME` inclus.
 - Bloqué : la création du dépôt public a été refusée par la vérification de sécurité de Claude Code. Charles doit l'autoriser (ou créer le dépôt), puis : Pages, enregistrement DNS `cadeau` CNAME `ray-charles.github.io` dans Squarespace, redirection `/cadeau -> https://cadeau.veacademy.studio 301`.
+
+## 2026-10-06 · PDF final, page en espagnol, mise en ligne
+
+**Fait**
+- PDF : celui envoyé par Mamselle le 6 oct. (17 pages, CaféCITO 8 oct.) + **page 18** ajoutée : offre membresía 17 $ CAD/mois (prix vérifié sur le checkout Circle), bouton cliquable vers `https://voz-esencia-academy-cbf28a.circle.so/checkout/membership`. Source de la page 18 : `pdf-cierre.html` (Chrome headless → PDF, puis ajoutée avec PyMuPDF, lien recréé). Résultat : `cadeau.pdf` (18 pages).
+- Page passée en **espagnol** (le PDF et le public sont hispanophones au Canada) et à l'**image du PDF** : crème, Cormorant Garamond italique, DM Sans, teal #0d4a5c, aqua #6fbfb5. Pixel VEA seul. Testé : envoi Formspree `mppqagwr`, téléchargement du PDF, pas de débordement mobile.
+- Dépôt public `ray-charles/VEAcadeau` créé, GitHub Pages actif avec le domaine `cadeau.veacademy.studio`.
+- Brouillon Gmail pour Mamselle (mamselleruiz@gmail.com, adresse vérifiée dans l'historique) dans le fil « PDF LEAD MAGNET POUR EL CAFECITO », avec le lien du PDF et 3 points à vérifier. Non envoyé.
+
+**Bloqué (Charles)**
+- Squarespace demande de reconfirmer la connexion Google avant de toucher au DNS. Après ça : enregistrement `CNAME cadeau → ray-charles.github.io`, puis redirection `/cadeau -> https://cadeau.veacademy.studio 301` (Paramètres du site → Outils pour développeurs → Redirections d'URL).
+- Formspree : ajouter mamselleruiz@gmail.com dans Account → Linked emails (refusé à Claude par la vérification de sécurité), Mamselle clique le lien de vérification, puis Claude ajoute l'action courriel sur le formulaire.
+- Formspree → Kit : coller la clé API Kit v3 dans le plugin ConvertKit du formulaire.
+- Page 17 du PDF : « [fecha y hora] » et « [enlace] » du webinaire restent à remplir (contenu de Mamselle).

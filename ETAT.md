@@ -37,3 +37,10 @@ Journal vivant : chaque changement, pourquoi, et la suite.
 - Formspree : ajouter mamselleruiz@gmail.com dans Account → Linked emails (refusé à Claude par la vérification de sécurité), Mamselle clique le lien de vérification, puis Claude ajoute l'action courriel sur le formulaire.
 - Formspree → Kit : coller la clé API Kit v3 dans le plugin ConvertKit du formulaire.
 - Page 17 du PDF : « [fecha y hora] » et « [enlace] » du webinaire restent à remplir (contenu de Mamselle).
+
+## 2026-10-06 (suite) · Formspree seul, pas de Kit
+
+- Décision de Charles : **pas de Kit** pour ce lead magnet, Formspree seulement. Plugin ConvertKit abandonné ; le tag Kit `cadeau-pdf` (24285181) reste vide, sans effet.
+- Formspree `mppqagwr` : chaque inscription envoie un courriel à keating.sands@gmail.com **et** mamselleruiz@gmail.com (adresse vérifiée).
+- Mamselle a reçu le PDF.
+- **Reste** : dans Squarespace, l'enregistrement DNS `CNAME cadeau → ray-charles.github.io` et la redirection `/cadeau -> https://cadeau.veacademy.studio 301` (vérifié le 2026-10-06 : pas encore faits). Ensuite Claude active HTTPS et teste.

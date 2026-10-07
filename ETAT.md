@@ -44,3 +44,12 @@ Journal vivant : chaque changement, pourquoi, et la suite.
 - Formspree `mppqagwr` : chaque inscription envoie un courriel à keating.sands@gmail.com **et** mamselleruiz@gmail.com (adresse vérifiée).
 - Mamselle a reçu le PDF.
 - **Reste** : dans Squarespace, l'enregistrement DNS `CNAME cadeau → ray-charles.github.io` et la redirection `/cadeau -> https://cadeau.veacademy.studio 301` (vérifié le 2026-10-06 : pas encore faits). Ensuite Claude active HTTPS et teste.
+
+## 2026-10-06 (soir) · EN LIGNE
+
+- DNS Squarespace : `CNAME cadeau → ray-charles.github.io` ajouté (après reconnexion Google de Charles).
+- HTTPS : certificat bloqué, débloqué en retirant puis remettant le domaine Pages ; `https_enforced` actif.
+- Test réel sur la page en ligne : inscription « Prueba Claude » (keating.sands+cadeautest@gmail.com) acceptée par Formspree, PDF ouvert, courriel « Regalo PDF: nueva descarga » reçu.
+- Courriel envoyé à Mamselle avec le lien, dans le fil « PDF LEAD MAGNET POUR EL CAFECITO ».
+- **Lien à partager : https://cadeau.veacademy.studio**
+- Pas fait : redirection `veacademy.studio/cadeau`. Le site Squarespace est verrouillé (cadenas sur « Edit site ») et ses réglages n'offrent pas les redirections d'URL. À reprendre si le forfait Squarespace est réactivé.

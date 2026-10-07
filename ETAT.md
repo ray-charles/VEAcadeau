@@ -68,3 +68,8 @@ Journal vivant : chaque changement, pourquoi, et la suite.
 
 - Envoyé à mamselleruiz@gmail.com : « Version finale : PDF CaféCITO + lien à tester », PDF de 17 pages en pièce jointe, lien https://cadeau.veacademy.studio, consigne de le tester sur son téléphone ce soir.
 - Astuce : le PDF (5 Mo) est trop lourd pour le connecteur Gmail ; brouillon créé par le connecteur, pièce jointe ajoutée et envoi faits dans Gmail via Chrome.
+
+## 2026-10-07 · PDF remplacé par la V2 de Mamselle
+
+- `cadeau.pdf` = « Domina tu voz y gana confianza - Regalo CafeCITO 8 oct 2026V2.pdf » (17 pages). Sa dernière page est la version de Mamselle de l'offre membresía (« ¿Y si tu voz te sostuviera todo el día? », 17 $ CAD, bouton « Sí, quiero entrenar mi voz »). Elle remplace notre page 18 ; `pdf-cierre.html` n'est plus utilisé dans le PDF.
+- La page étant une image, lien cliquable ajouté sur le bouton (zone 916,542 → 1312,614) vers le checkout Circle membership.

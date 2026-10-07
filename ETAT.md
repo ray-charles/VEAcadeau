@@ -63,3 +63,8 @@ Journal vivant : chaque changement, pourquoi, et la suite.
 ## 2026-10-07 · Page « ¿Y ahora? » retirée du PDF
 
 - Demande de Charles : supprimer l'ancienne page 17 (« ¿Y ahora? », webinaire [fecha y hora], [enlace]). Le PDF passe à 17 pages : le geste 09 mène directement à l'offre membresía (17 $ CAD), lien du bouton intact.
+
+## 2026-10-07 · Courriel final à Mamselle
+
+- Envoyé à mamselleruiz@gmail.com : « Version finale : PDF CaféCITO + lien à tester », PDF de 17 pages en pièce jointe, lien https://cadeau.veacademy.studio, consigne de le tester sur son téléphone ce soir.
+- Astuce : le PDF (5 Mo) est trop lourd pour le connecteur Gmail ; brouillon créé par le connecteur, pièce jointe ajoutée et envoi faits dans Gmail via Chrome.

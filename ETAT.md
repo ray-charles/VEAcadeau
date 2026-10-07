@@ -59,3 +59,7 @@ Journal vivant : chaque changement, pourquoi, et la suite.
 - Demande de Charles : le public sort d'un webinaire avec Mamselle, déjà convaincu. La page n'est plus qu'un formulaire sur un seul écran, sans défilement : logo, titre « Domina tu voz y gana confianza », nombre, apellido, correo, teléfono, bouton « Descargar mi cuaderno ».
 - Après l'envoi Formspree, le navigateur va directement au PDF (plus d'écran de confirmation). Pixel `Lead` conservé.
 - Vérifié : aucun défilement à 375×812 ni à 1366×650, formulaire centré, le PDF est bien appelé après l'envoi. Photo de Mamselle retirée (plus utilisée).
+
+## 2026-10-07 · Page « ¿Y ahora? » retirée du PDF
+
+- Demande de Charles : supprimer l'ancienne page 17 (« ¿Y ahora? », webinaire [fecha y hora], [enlace]). Le PDF passe à 17 pages : le geste 09 mène directement à l'offre membresía (17 $ CAD), lien du bouton intact.

@@ -4,13 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Domina Tu Voz · Regalo · Voz Esencia™ Academy</title>
-<meta name="description" content="Tu regalo de Mamselle Ruiz: nueve gestos para conocer tu voz y ganar confianza. Gratis, en PDF, se descarga al instante.">
+<meta name="description" content="Tu regalo de Mamselle Ruiz: el cuaderno Domina tu voz y gana confianza, en PDF.">
 <meta name="theme-color" content="#0d4a5c">
 <link rel="icon" type="image/png" href="favicon.png">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400;1,500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 <!-- Meta Pixel: VEA dataset (Spanish) -->
 <script>
@@ -24,189 +23,72 @@ fbq('track','PageView');
 </script>
 
 <style>
-/* Tokens sampled from the gift PDF itself (cream pages, deep teal, serif italic titles) */
-:root {
-  --cream:     #fffefa;
-  --cream-2:   #fefbf3;
-  --teal:      #0d4a5c;
-  --teal-deep: #0b3e4f;
-  --aqua:      #6fbfb5;
-  --copper:    #c29359;
-  --sand:      #e8c891;
-  --btn:       #E6B325;
-  --btn-deep:  #d3a015;
-  --ink:       #2b2b2b;
-  --ink-soft:  #5f6466;
-  --line:      #e7e2d6;
-}
+/* Tokens from the gift PDF: cream, deep teal, aqua, serif italic title */
+:root { --cream:#fffefa; --teal:#0d4a5c; --aqua:#6fbfb5; --btn:#E6B325; --btn-deep:#d3a015; --ink:#2b2b2b; --line:#e7e2d6; }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body { background: var(--cream); color: var(--ink); font-family: 'DM Sans', sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
-img { max-width: 100%; display: block; }
-.serif { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 400; }
-
-.top { max-width: 1120px; margin: 0 auto; padding: 22px 24px 0; }
-.top img { height: 46px; width: auto; }
-
-/* ===== HERO: promise left, form right ===== */
-.hero { padding: 40px 24px 72px; }
-.hero-grid { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: center; }
-@media (max-width: 880px) { .hero-grid { grid-template-columns: 1fr; gap: 32px; } }
-@media (max-width: 600px) { .hero { padding: 24px 16px 52px; } .top { padding: 16px 16px 0; } .top img { height: 38px; } }
-
-.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .22em; text-transform: uppercase; color: var(--teal); margin-bottom: 16px; }
-h1 { font-size: clamp(2.6rem, 6vw, 4.4rem); line-height: 1.02; color: var(--ink); margin-bottom: 18px; }
-h1 em { font-style: italic; color: var(--aqua); }
-.rule { width: 84px; height: 1.5px; background: var(--aqua); margin-bottom: 22px; }
-.sub { font-size: clamp(16px, 1.8vw, 19px); color: var(--ink-soft); margin-bottom: 26px; max-width: 560px; }
-.inside { list-style: none; display: grid; gap: 14px; }
-.inside li { position: relative; padding-left: 22px; font-size: 16px; color: var(--ink-soft); }
-.inside li::before { content: ''; position: absolute; left: 0; top: 9px; width: 8px; height: 8px; border-radius: 50%; background: var(--aqua); }
-.inside strong { color: var(--ink); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; display: block; }
-
-/* ===== FORM CARD (same card as the PDF: hairline border, coloured left edge) ===== */
-.card { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--aqua); border-radius: 18px; padding: 32px 30px; box-shadow: 0 18px 40px rgba(13,74,92,0.10); }
-@media (max-width: 600px) { .card { padding: 24px 18px; } }
-.card h2 { font-size: 2rem; line-height: 1.1; color: var(--teal); margin-bottom: 6px; }
-.card .lede { color: var(--ink-soft); font-size: 15px; margin-bottom: 20px; }
-.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-@media (max-width: 420px) { .row { grid-template-columns: 1fr; } }
-.field { margin-bottom: 14px; }
-label { display: block; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); margin-bottom: 6px; }
-input { width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: var(--cream-2); border: 1px solid var(--line); border-radius: 10px; padding: 13px 14px; transition: border-color .15s, box-shadow .15s; }
+html, body { height: 100%; }
+body {
+  min-height: 100dvh; display: grid; place-items: center; padding: 16px;
+  background: var(--cream); color: var(--ink); font-family: 'DM Sans', sans-serif;
+}
+main { width: 100%; max-width: 420px; text-align: center; }
+.logo { height: 40px; width: auto; margin: 0 auto 14px; }
+h1 { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 400; font-size: 2.1rem; line-height: 1.1; margin-bottom: 18px; }
+h1 em { color: var(--aqua); font-style: italic; }
+form { display: grid; gap: 10px; text-align: left; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+label { display: block; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 4px; }
+input { width: 100%; font: inherit; font-size: 16px; color: var(--ink); background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 12px 13px; }
 input:focus { outline: none; border-color: var(--aqua); box-shadow: 0 0 0 3px rgba(111,191,181,0.25); }
-.btn { display: block; width: 100%; border: 0; cursor: pointer; margin-top: 6px; background: var(--btn); color: #2f1525; font-family: 'DM Sans', sans-serif; font-size: 17px; font-weight: 700; padding: 18px 22px; border-radius: 12px; text-align: center; text-decoration: none; transition: background .18s, transform .08s; touch-action: manipulation; }
-.btn:hover { background: var(--btn-deep); }
-.btn:active { transform: scale(.99); }
-.btn:disabled { opacity: .7; cursor: wait; }
-.fine { font-size: 12.5px; color: var(--ink-soft); text-align: center; margin-top: 12px; }
-.err { color: #a3261e; font-size: 14px; margin-top: 10px; text-align: center; }
-.done { text-align: center; }
-.done .check { width: 56px; height: 56px; border-radius: 50%; margin: 0 auto 14px; background: var(--teal); color: #fff; font-size: 28px; line-height: 56px; }
-
-/* ===== WHO: the PDF's closing teal ===== */
-.who { background: linear-gradient(180deg, var(--teal) 0%, var(--teal-deep) 100%); color: #fff; padding: 72px 24px; }
-.who-inner { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 280px 1fr; gap: 44px; align-items: center; }
-@media (max-width: 700px) { .who { padding: 52px 16px; } .who-inner { grid-template-columns: 1fr; gap: 26px; } }
-.who img { border-radius: 18px; aspect-ratio: 1; object-fit: cover; width: 100%; max-width: 300px; margin: 0 auto; }
-.who .eyebrow { color: var(--sand); }
-.who h2 { font-size: clamp(2.2rem, 4.4vw, 3rem); line-height: 1.08; margin-bottom: 14px; }
-.who h2 em { color: var(--sand); }
-.who p { color: rgba(255,255,255,0.85); margin-bottom: 12px; }
-.who .btn { max-width: 340px; margin-top: 18px; }
-
-footer { text-align: center; font-size: 13px; color: var(--ink-soft); padding: 26px 16px 36px; }
+button { margin-top: 6px; border: 0; cursor: pointer; background: var(--btn); color: #2f1525; font: inherit; font-size: 17px; font-weight: 700; padding: 16px; border-radius: 12px; touch-action: manipulation; }
+button:hover { background: var(--btn-deep); }
+button:disabled { opacity: .7; cursor: wait; }
+.err { color: #a3261e; font-size: 14px; text-align: center; }
 </style>
 </head>
 <body>
-
-<header class="top"><img src="Logo-es.png" alt="Voz Esencia™ Academy" width="200" height="46"></header>
-
 <main>
-<section class="hero">
-  <div class="hero-grid">
-    <div>
-      <p class="eyebrow">Tu regalo gratis · Cuaderno PDF</p>
-      <h1 class="serif">Domina tu voz<br>y gana <em>confianza</em></h1>
-      <div class="rule"></div>
-      <p class="sub">Nueve gestos para conocer tu voz, de pocos minutos cada uno. Los haces en tu escritorio o en casa, con tu cuerpo, un espejo y tu celular.</p>
-      <ul class="inside">
-        <li><strong>Encuentra tu bloqueo</strong>Nervios, garganta, respiración o identidad. Sabrás por dónde empezar.</li>
-        <li><strong>Busca la prueba</strong>Cada gesto trae una prueba que verificas tú: la mano que vibra, la grabación.</li>
-        <li><strong>Tu voz, la de verdad</strong>Única como tu huella digital.</li>
-      </ul>
+  <img class="logo" src="Logo-es.png" alt="Voz Esencia™ Academy" width="174" height="40">
+  <h1>Domina tu voz y gana <em>confianza</em></h1>
+  <form id="lead-form">
+    <div class="row">
+      <div><label for="f-first">Nombre</label><input id="f-first" name="first_name" autocomplete="given-name" required></div>
+      <div><label for="f-last">Apellido</label><input id="f-last" name="last_name" autocomplete="family-name" required></div>
     </div>
-
-    <div class="card" id="formulario">
-      <div id="panel">
-        <h2 class="serif">Recibe tu cuaderno</h2>
-        <p class="lede">Llena los 4 campos y tu PDF se abre al instante.</p>
-        <form id="lead-form">
-          <div class="row">
-            <div class="field">
-              <label for="f-first">Nombre</label>
-              <input id="f-first" name="first_name" type="text" autocomplete="given-name" required>
-            </div>
-            <div class="field">
-              <label for="f-last">Apellido</label>
-              <input id="f-last" name="last_name" type="text" autocomplete="family-name" required>
-            </div>
-          </div>
-          <div class="field">
-            <label for="f-tel">Teléfono</label>
-            <input id="f-tel" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
-          </div>
-          <div class="field">
-            <label for="f-email">Correo electrónico</label>
-            <input id="f-email" name="email" type="email" inputmode="email" autocomplete="email" required>
-          </div>
-          <button class="btn" id="submit" type="submit">Quiero mi regalo</button>
-          <p class="err" id="err" role="alert" hidden></p>
-          <p class="fine">100 % gratis. Te das de baja cuando quieras.</p>
-        </form>
-      </div>
-      <div class="done" id="done" hidden>
-        <div class="check" aria-hidden="true">✓</div>
-        <h2 class="serif">¡Listo!</h2>
-        <p class="lede">Tu cuaderno se está descargando. ¿No se abre? Toca aquí:</p>
-        <a class="btn" id="dl" href="cadeau.pdf" target="_blank" rel="noopener">Abrir mi cuaderno</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="who">
-  <div class="who-inner">
-    <img src="mamselle.jpg" alt="Mamselle Ruiz" width="300" height="300" loading="lazy">
-    <div>
-      <p class="eyebrow">Quién te lo regala</p>
-      <h2 class="serif">Hola, soy <em>Mamselle Ruiz</em></h2>
-      <p>25 años como coach vocal. Más de mil conciertos. Cirque du Soleil. Y más de 300 evaluaciones vocales, que me enseñaron que todos los bloqueos de la voz caben en cuatro grupos.</p>
-      <p>Tu voz no está rota. Nadie te enseñó cómo funciona. Este cuaderno es la puerta de entrada.</p>
-      <a class="btn" href="#formulario">Quiero mi cuaderno</a>
-    </div>
-  </div>
-</section>
+    <div><label for="f-email">Correo electrónico</label><input id="f-email" name="email" type="email" inputmode="email" autocomplete="email" required></div>
+    <div><label for="f-tel">Teléfono</label><input id="f-tel" name="phone" type="tel" inputmode="tel" autocomplete="tel" required></div>
+    <button id="submit" type="submit">Descargar mi cuaderno</button>
+    <p class="err" id="err" role="alert" hidden></p>
+  </form>
 </main>
 
-<footer>© Voz Esencia™ Academy · veacademy.studio</footer>
-
 <script>
-/* Formspree form "Lead magnet PDF" keeps the record and emails Charles + Mamselle.
-   No Kit on purpose (Charles, 2026-10-06). */
+/* Formspree "Lead magnet PDF" emails Charles + Mamselle (no Kit, by choice).
+   On success the browser goes straight to the PDF. */
 var FORMSPREE = 'https://formspree.io/f/mppqagwr';
-var PDF = 'cadeau.pdf';
-
-function downloadPdf(){
-  var a = document.createElement('a');
-  a.href = PDF; a.download = 'Domina-tu-voz-Voz-Esencia.pdf';
-  document.body.appendChild(a); a.click(); a.remove();
-}
 
 document.getElementById('lead-form').addEventListener('submit', function(e){
   e.preventDefault();
   var f = e.target, btn = document.getElementById('submit'), err = document.getElementById('err');
   err.hidden = true; btn.disabled = true; btn.textContent = 'Enviando…';
-
   fetch(FORMSPREE, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
     body: JSON.stringify({
       first_name: f.first_name.value.trim(),
       last_name:  f.last_name.value.trim(),
-      phone:      f.phone.value.trim(),
       email:      f.email.value.trim(),
+      phone:      f.phone.value.trim(),
       source:     'cadeau-pdf',
       _subject:   'Regalo PDF: nueva descarga'
     })
   }).then(function(r){
     if(!r.ok) throw new Error('http ' + r.status);
     if(typeof fbq !== 'undefined') fbq('track', 'Lead', { content_name: 'cadeau-pdf' });
-    document.getElementById('panel').hidden = true;
-    document.getElementById('done').hidden = false;
-    downloadPdf();
+    setTimeout(function(){ location.href = 'cadeau.pdf'; }, 300);  /* let the pixel fire */
   }).catch(function(){
     err.textContent = 'No se pudo enviar. Revisa tu conexión e inténtalo de nuevo.';
-    err.hidden = false; btn.disabled = false; btn.textContent = 'Quiero mi regalo';
+    err.hidden = false; btn.disabled = false; btn.textContent = 'Descargar mi cuaderno';
   });
 });
 </script>

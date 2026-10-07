@@ -53,3 +53,9 @@ Journal vivant : chaque changement, pourquoi, et la suite.
 - Courriel envoyé à Mamselle avec le lien, dans le fil « PDF LEAD MAGNET POUR EL CAFECITO ».
 - **Lien à partager : https://cadeau.veacademy.studio**
 - Pas fait : redirection `veacademy.studio/cadeau`. Le site Squarespace est verrouillé (cadenas sur « Edit site ») et ses réglages n'offrent pas les redirections d'URL. À reprendre si le forfait Squarespace est réactivé.
+
+## 2026-10-07 · Page réduite à un simple formulaire
+
+- Demande de Charles : le public sort d'un webinaire avec Mamselle, déjà convaincu. La page n'est plus qu'un formulaire sur un seul écran, sans défilement : logo, titre « Domina tu voz y gana confianza », nombre, apellido, correo, teléfono, bouton « Descargar mi cuaderno ».
+- Après l'envoi Formspree, le navigateur va directement au PDF (plus d'écran de confirmation). Pixel `Lead` conservé.
+- Vérifié : aucun défilement à 375×812 ni à 1366×650, formulaire centré, le PDF est bien appelé après l'envoi. Photo de Mamselle retirée (plus utilisée).
